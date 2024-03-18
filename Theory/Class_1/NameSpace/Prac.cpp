@@ -1,6 +1,6 @@
+/*
 #include <iostream>
 
-/*
 namespace BestComImpl
 {
     void SimpleFunc(void)
@@ -92,4 +92,8 @@ void ProgComImpl::SimpleFunc()
     std::cout<<"ProgCom이 정의한 함수"<<std::endl;
 }
 */
+
+
+
+
 
