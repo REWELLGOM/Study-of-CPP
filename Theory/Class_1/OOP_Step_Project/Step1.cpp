@@ -92,9 +92,10 @@ int main(void)
         }
         else if(num == 4)
         {
-
+            
         }
         else{
+            cout<<"잘못된 번호";
             break;
         }
     }
