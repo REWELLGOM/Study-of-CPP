@@ -12,7 +12,7 @@ int main()
     cout << finalScore[2] << endl;
 
     cout << "&score: " << &score << endl;
-    cout << "&score[0]: " << &score[0] << endl;
+    cout << "&score[0]: " << &score[0] << endl; //첫 값과 선언할때의 값은 같다
     cout << "&score[1]: " << &score[1] << endl;
     cout << "(score+1): " << (score+1) << endl;
     cout << "*(score + 1): " << *(score + 1) << endl;
