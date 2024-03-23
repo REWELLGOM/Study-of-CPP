@@ -20,9 +20,13 @@ public:
 
 int main()
 {
-    Person *p1 = new Person("Eric Clapton");
+    string name;
+    cin>>name;
+    //Person *p1 = new Person("Eric Clapton");
     // Person p1 = Person("Eric Clapton");
     // Person p1("Eric Clapton");
+    Person *p1 = name;
+    
 
     p1->sayHello();
 
