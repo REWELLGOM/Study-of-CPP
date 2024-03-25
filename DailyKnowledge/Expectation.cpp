@@ -3,9 +3,9 @@
 
 int main() {
     try {
-        // 예외가 발생할 수 있는 코드
-        std::cout << "Trying to use a risky operation...\n";
-        throw std::runtime_error("A problem occurred"); // 예외 발생
+        // 예외가 일어날수 있는 상황 잡는 용도
+        std::cout << "Trying to use a risky operation...\n"; //예외 발생시 출력될 이름
+        throw std::runtime_error("A problem occurred"); // 예외 발생 catch로 넘김
     }
     catch (const std::runtime_error& e) {
         // 예외 처리 코드
