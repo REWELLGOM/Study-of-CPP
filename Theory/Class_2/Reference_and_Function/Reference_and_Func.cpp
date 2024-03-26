@@ -21,3 +21,4 @@ int main(void)
     cout<<"val2: "<<val2<<endl;
     return 0;
 }
+
