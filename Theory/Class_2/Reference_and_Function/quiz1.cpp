@@ -6,7 +6,7 @@ using namespace std;
 void increaseFunc(int &a)
 {
     a++;
-    transFunc(num);
+    transFunc(a);  //값을 바꾸고온뒤에 그값을 반환시키지 않음
 }
 
 int transFunc(int a)
@@ -29,13 +29,13 @@ int main(void)
 
 using namespace std;
 
-// transFunc 함수를 먼저 정의
+
 int transFunc(int a)
 {
     return a * (-1);
 }
 
-// 이제 transFunc 함수 프로토타입 선언 없이도 increaseFunc 내에서 transFunc 호출 가능
+
 void increaseFunc(int &a)
 {
     a++;
@@ -51,3 +51,4 @@ int main(void)
 
     increaseFunc(num);
 }
+
