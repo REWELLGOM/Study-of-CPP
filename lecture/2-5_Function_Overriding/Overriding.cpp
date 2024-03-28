@@ -5,7 +5,7 @@ using namespace std;
 
 class Person
 {
-protected:
+protected:   //접근제어자 상속에서 가져올수있음
     string m_name;
 
 public:
