@@ -13,7 +13,7 @@ public:
         m_name = name;
     }
 
-    virtual void sayHello()
+    virtual void sayHello()  //이거없으면 person클래스의 sayhello만 가져옴
     {
         cout << "Hello I'm " << m_name << endl;
     }
