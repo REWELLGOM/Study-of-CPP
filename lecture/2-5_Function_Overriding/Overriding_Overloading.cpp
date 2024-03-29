@@ -5,7 +5,7 @@ using namespace std;
 
 class Person
 {
-protected:   //접근제어자 상속에서 가져올수있음
+protected:   //접근제어자 상속에서 가져올수있음 클래스 상속단계에서만 사용가능
     string m_name;
 
 public:
@@ -26,15 +26,15 @@ private:
     string m_instrument;
 
 public:
-    Musician(string m_name) : Person(m_name) {}
+    Musician(string m_name) : Person(m_name) {}  //Person클래스에서 가져와서 Musician에 넣음 preivate하면 이렇게 가져올수 없음 그래서 위에 protected사용
 
-    void sayHello()
+    void sayHello() //오버라이딩
     {
         cout << "Hi I'm " << m_name << endl;
         cout << "I play the " << m_instrument << endl;
     }
 
-    void sayHello(string lang)
+    void sayHello(string lang) //오버로딩
     {
         if (lang == "ENG")
         {
