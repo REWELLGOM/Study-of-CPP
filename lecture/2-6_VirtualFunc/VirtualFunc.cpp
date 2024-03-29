@@ -13,7 +13,7 @@ public:
         m_name = name;
     }
 
-    virtual void sayHello()  //이거없으면 person클래스의 sayhello만 가져옴
+    virtual void sayHello()  //이거없으면 person클래스의 sayhello만 가져옴 자식이 재정의 할수있게하는게 virtual
     {
         cout << "Hello I'm " << m_name << endl;
     }
@@ -53,8 +53,8 @@ public:
 int main()
 {
     Person *p1 = new Musician("Jeff");
-    p1->sayHello();  //Person에 저장해놔서
-    // p1->playSomething();  //Person에서 만들어서 접근
+    p1->sayHello(); 
+    // p1->playSomething();  //Person에서 만들었기때문에 불가 Musician으로 만들면 가능
     cout << endl;
 
     Person *p2 = new Person("Jane");
