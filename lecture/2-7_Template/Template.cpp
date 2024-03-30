@@ -13,7 +13,7 @@ using namespace std;
 //     return a + b;
 // }
 
-template <typename T>  //예외처리가 필요함
+template <typename T>  //예외처리가 필요함(Template_Splization참고)
 T sum(T a, T b)
 {
     return a + b;
