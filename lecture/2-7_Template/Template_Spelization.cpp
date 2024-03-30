@@ -8,7 +8,7 @@ T sum(T a, T b)
     return a + b;
 }
 
-template <> //template의 예외처리
+template <> //template이 가끔 받아주면 안되는것을 처리하기위한 예외처리
 char sum<char>(char a, char b)
 {
     cout << "Unable to sum char!" << endl;
