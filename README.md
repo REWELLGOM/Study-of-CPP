@@ -1,7 +1,10 @@
 # CppLecture
 
-깃허브 모르거나 까먹을때마
+깃허브 모르거나 까먹을때마다
 https://heannim-world.tistory.com/130
+
+STL 공부하자 영어임
+https://github.com/douglascraigschmidt/CPlusPlus
 
 # 1단원(Class1 파일 참조)
 
