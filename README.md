@@ -3,10 +3,10 @@
 깃허브 모르거나 까먹을때마다
 https://heannim-world.tistory.com/130
 
-#STL 공부하자 영어임
+## STL 공부하자 영어임
 https://github.com/douglascraigschmidt/CPlusPlus
 
-#유튜브
+## 유튜브
 https://www.youtube.com/watch?v=6Gyl5wi3yi4&t=756s
 
 # 1단원(Class1 파일 참조)
