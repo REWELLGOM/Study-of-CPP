@@ -14,12 +14,10 @@ namespace Swap
 
     void swapFunc(char *ch1, char *ch2)
     {
-        cout<<ch2<<endl;
+        cout<<*ch2<<endl; //ch2만으로 출력하면 ch1의 값을 포함하여 연속된 메모리 영역을 출력
         char ch = *ch1;
         *ch1 = *ch2;
         *ch2 = ch;
-        cout<<ch1<<endl;
-        cout<<ch2<<endl;
     }
 }
 int main(void)
@@ -30,7 +28,7 @@ int main(void)
 
     char ch1 = 'a';
     char ch2 = 'b';
-    cout<<ch1<<' '<<ch2<<endl;
     Swap::swapFunc(&ch1, &ch2);
-
+    cout<<ch1<<' '<<ch2<<endl;
+    return 0;
 }
