@@ -14,7 +14,6 @@ int main(void)
     const int *(&num2) = num1;
     const int* &num2 = num1;
 
-
     cout<<"num: "<<*num1<<endl;
     cout<<"num2: "<<*num2<<endl;
 
