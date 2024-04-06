@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+
+
 /* overloading
 namespace Swap
 {
@@ -33,6 +35,8 @@ int main(void)
     return 0;
 }
 */
+
+/*  오버로딩
 int BoxVal(int length, int width, int height)
 {
     cout<<"int로 왔다"<<endl;
@@ -54,10 +58,7 @@ int BoxVal()
 int main()
 {
     int a = 0, b = 0, c = 0;
-    cin>>a;
-    cin>>b;
-    cin>>c;
-    cout<<a<<endl<<b<<endl<<c<<endl;
     cout<<"result = "<<BoxVal(a,b,c)<<endl;
     return 0;
 }
+*/
