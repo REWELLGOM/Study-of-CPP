@@ -9,6 +9,9 @@ https://github.com/douglascraigschmidt/CPlusPlus
 ## 유튜브
 https://www.youtube.com/watch?v=6Gyl5wi3yi4&t=756s
 
+## vscode c++세팅
+https://codesyun.tistory.com/entry/VS-Code-C-C-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%8B%A4%ED%96%89-%EB%94%94%EB%B2%84%EA%B9%85
+
 # 1단원(Class1 파일 참조)
 
 ## 함수 오버로딩(Function OverLoading)
