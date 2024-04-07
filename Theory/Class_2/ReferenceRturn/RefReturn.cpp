@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int& RefReturnFunc(int &ref)
+int& RefReturnFunc(int &ref) 
+//num1의 값을 변형하기위해서 ref를 num1의 참조자로 만든거임 참조형이기에 반환도 참조형임
 {
     //num1의 값을 받고 이 안에서만 살아있는 ref
     ref++;
