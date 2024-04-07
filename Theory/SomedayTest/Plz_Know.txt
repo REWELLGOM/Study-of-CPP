@@ -1,3 +1,4 @@
+오버로딩
 namespace Swap
 {   
    void swapFunc(char *ch1, char *ch2)
@@ -16,3 +17,5 @@ int main(void)
     cout<<ch1<<' '<<ch2<<endl;
     return 0;
 }
+
+함수가 무엇을 받는지 명확하게 쓸것 안그러면 모호성이 생겨서 오류가 날수있다.
