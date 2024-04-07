@@ -1,6 +1,10 @@
+/*
+코드의 가독성과 재사용성을 높이기위해 이용
+유지보수가 쉬워짐
+*/
 
 #include <iostream>
-/*
+
 namespace BestComImpl
 {
     void SimpleFunc(void)
@@ -22,7 +26,7 @@ int main(void)
     ProgCoImpl::SimpleFunc();
     return 0;
 }
-*/
+
 
 /*
 namespace BestComImpl
