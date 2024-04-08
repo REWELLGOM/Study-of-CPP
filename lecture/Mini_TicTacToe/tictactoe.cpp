@@ -1,3 +1,7 @@
+/*
+종료 기능
+누구의 턴인지
+*/
 #include <iostream>
 using namespace std;
 
@@ -23,9 +27,9 @@ private:
     int m_board[3][3];
     int m_numOfProcess;
 
-     // 기본세팅
+    // 기본세팅
     char convertNumberToDx(int value)
-    
+
     {
         if (value == 0)
         {
@@ -110,7 +114,6 @@ public:
         }
     }
 
-
     void showCurrentBoard()
     {
         for (int i = 0; i < 5; i++)
@@ -184,7 +187,7 @@ public:
     {
         doInitialise();
     }
-    //소멸자
+    // 소멸자
     ~Contorller()
     {
         delete board;
@@ -210,17 +213,32 @@ public:
     void startPlay()
     {
         int x, y, ret = 0;
+        int count = 0;
         while (true)
         {
-            board -> showCurrentBoard();
+            board->showCurrentBoard();
             cout << "Enter Ur Location" << endl;
             cin >> x >> y;
 
-            ret = board -> updateBoard(x,y);
+            ret = board->updateBoard(x, y);
 
+            //이겼을 경우
             if (ret == 1)
             {
                 cout << "CONGRATURATION!" << endl;
+                break;
+            }
+
+            //비길 경우
+            if (ret != -1)
+            {
+                count++;
+                if (count >= 9)
+                {
+                    cout << "Draw Try Again" << endl;
+                    board->doInitialise();
+                    count = 0;
+                }
             }
         }
     }
@@ -229,6 +247,6 @@ public:
 int main()
 {
     Contorller *controller = new Contorller();
-    controller -> startPlay();
+    controller->startPlay();
     return 0;
 }
