@@ -1,5 +1,4 @@
 /*
-종료 기능
 누구의 턴인지
 */
 #include <iostream>
@@ -212,8 +211,7 @@ public:
 
     void startPlay()
     {
-        int x, y, ret = 0;
-        int count = 0;
+        int x, y, ret, count = 0;
         while (true)
         {
             board->showCurrentBoard();
