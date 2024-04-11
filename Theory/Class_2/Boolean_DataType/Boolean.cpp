@@ -3,8 +3,6 @@
 */
 
 #include <iostream>
-
-// 0이 아닌 모든 정수는 '참'이다
 using namespace std;
 
 
