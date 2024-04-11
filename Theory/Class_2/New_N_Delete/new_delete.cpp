@@ -1,11 +1,8 @@
-//힙(Heap)은 동적 메모리 할당을 위해 프로그램이 사용하는 메모리 영역
-
 /*
-아래의 주석 처리가된 코드는 C언어의 동적할당을 보이기 위한거임
+힙(Heap)은 동적 메모리 할당을 위해 프로그램이 사용하는 메모리 영역
 
-단점
-할당할 대상의 정보를 무조건 바이트 크기단위로 전달해야함
-반환형이 void형 포인터이기 때문에 적절한 형 변환을 거쳐야 함
+new연산시 반환된 주소 값을 대상으로 delete연산을 실행
+할당된 영ㅇ역이 배열의 구조라면 []를 추가
 */
 
 
@@ -17,6 +14,7 @@ using namespace std;
 
 char * MakeStrAdr(int len)
 {
+    //아래의 코드는 C언어의 동적할당을 보이기 위한거임(malloc free)
     //char* str = (char*)malloc(sizeof(char)*len);
     char* str = new char[len];
     return str;
