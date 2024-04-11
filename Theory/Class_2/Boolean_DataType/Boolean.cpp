@@ -7,7 +7,7 @@
 // 0이 아닌 모든 정수는 '참'이다
 using namespace std;
 
-/*
+
 int main(void)
 {
     int num = 10;
@@ -35,8 +35,8 @@ int main(void)
     return 0;
 
 }
-*/
 
+/*
 bool IsPositive(int num)
 {
     if (num <= 0)
@@ -60,4 +60,4 @@ int main(void)
 
     return 0;
 }
-
+*/
