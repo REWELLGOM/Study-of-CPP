@@ -1,6 +1,9 @@
-#include <cmath>
-#include <cstdio>
-#include <cstring>
+/*
+C언어에서 쓰던 라이브러리 사용법
+*/
+#include <cmath> //#include <math.h>
+#include <cstdio> //#include <stdio.h>
+#include <cstring> //#include <cstring>
 using namespace std;
 
 int main(void)
