@@ -24,7 +24,7 @@ const int *const ptr3 = &val3;
 
 힙 = malloc 함수호출에 의해 프로그램이 실행되는 과정에서 동적으로 할당이 이뤄지는 영역
 
-malloc & free malloc 함수 호출에 의해 할당된 메모리 공간은 free 함수호출을 통해서 소멸하지 앟음녀 해제되지 않는다
+malloc & free malloc 함수 호출에 의해 할당된 메모리 공간은 free 함수호출을 통해서 소멸하지 않으며 해제되지 않는다
 
 
 
