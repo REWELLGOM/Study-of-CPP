@@ -30,8 +30,13 @@ void Accel(Car &car)
     }
     else
     {
-        car.fuelGuage -=FUEL_STEP;
+        car.fuelGauge -=FUEL_STEP;
+
     }
 
     if(car.curSpeed+)
+    {
+
+    }
+    return
 }
