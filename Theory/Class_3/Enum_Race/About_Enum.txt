@@ -11,8 +11,3 @@ eunm class
 암묵적인 변환을 허용하지 않음 
 <int>(color)이런식으로 명시해야함
 타입 안정성이 보장
-
-사용방식
-EnemySpeed enemySpeed = EnemySpeed::Fast;
-
-
