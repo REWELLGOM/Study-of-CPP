@@ -13,6 +13,6 @@ eunm class
 타입 안정성이 보장
 
 사용방식
-Color::Red; 
+EnemySpeed enemySpeed = EnemySpeed::Fast;
 
 
