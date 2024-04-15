@@ -6,7 +6,7 @@ protected
 상속관계에 놓여있을 때. 유도 클래스에서의 접근허용
 
 private
-클래스 내에서만 접근허용
+클래스 안에 있는것들끼리만 접근허용
 */
 
 #include <iostream>
@@ -32,10 +32,10 @@ private:
     int fuelGauge;
     int curSpeed;
 public:
+    void InitMembers(char *ID, int fuel);
     void ShowCarState();
     void Accel();
     void Break();
-    void InitMembers(char *ID, int fuel);
 };
 
 //초기화 용도
