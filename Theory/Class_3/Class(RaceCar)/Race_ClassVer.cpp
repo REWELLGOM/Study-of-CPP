@@ -1,4 +1,6 @@
 /*
+구조체와 다른점은 접근 제어이다.
+
 pubilc 
 어디서든 접근 허용
 
@@ -28,10 +30,12 @@ namespace Car_Var
 class Car
 {
 private:
+    //멤버 변수
     char gamerID[Car_Var::ID_LEN];
     int fuelGauge;
     int curSpeed;
 public:
+    //멤버 함수
     void InitMembers(char *ID, int fuel);
     void ShowCarState();
     void Accel();
