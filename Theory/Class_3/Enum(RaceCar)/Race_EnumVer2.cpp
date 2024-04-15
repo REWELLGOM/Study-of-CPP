@@ -1,3 +1,7 @@
+/*
+구조체 안에 함수가 정의되어 있으면 안의 함수를 인라인으로 처리하라라는 말로 보일수가 있음
+*/
+
 #include <iostream>
 using namespace std;
 
