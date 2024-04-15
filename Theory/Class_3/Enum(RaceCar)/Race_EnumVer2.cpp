@@ -72,8 +72,10 @@ int main()
     run99.Accel();
     run99.Accel();
     run99.ShowCarState();
+    cout<<" "<<endl;
     run99.Break();
     run99.ShowCarState();
+    cout<<" "<<endl;
 
     Car sped77 = {"sped77", 100, 0};
     sped77.Accel();
