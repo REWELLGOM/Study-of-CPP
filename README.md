@@ -1,6 +1,9 @@
 # CppLecture
 
-깃허브 모르거나 까먹을때마다
+# 분할컴파일 방법
+https://toopyo.tistory.com/entry/vscode-post5-gccfileseperate
+
+## 깃허브 모르거나 까먹을때마다
 https://heannim-world.tistory.com/130
 
 ## STL 공부하자 영어임
