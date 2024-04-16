@@ -1,3 +1,6 @@
+/*
+객체간의 상호작용을 보기위한 코드이다
+*/
 #include <iostream>
 using namespace std;
 
