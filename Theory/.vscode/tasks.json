@@ -7,7 +7,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${workspaceFolder}\\*.cpp",
+                "${workspaceFolder}\\Class_3\\File_Divide\\*.cpp",
+                "${workspaceFolder}\\Class_3\\File_Divide\\*.h",
                 "-o",
                 "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
                 ""
