@@ -1,3 +1,6 @@
+/*
+클래스의 동작을 보기위한 코드다
+*/
 #include <iostream>
 using namespace std;
 
@@ -26,6 +29,7 @@ public:
 
 int main(void)
 {
+    //멤버 변수가 public으로 선언되면 초기화 할수있다
     Point pos1 = {-2, 4};
     Point pos2 = {5, 6};
     Rectangle rec = {pos2, pos1};
