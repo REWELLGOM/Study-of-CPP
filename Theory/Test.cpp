@@ -30,7 +30,7 @@ public:
         return num;
     }
 
-    void ShowSalesResult()
+    void ShowSalesResult() const
     {
         cout<<"남은 사과: "<<numOfApples<<endl;
         cout<<"소지금: "<<myMoney<<endl<<endl;
@@ -56,7 +56,7 @@ public:
         myMoney -= money;
     }
 
-    void ShowBuyResult()
+    void ShowBuyResult() const
     {
         cout<<"구매 사과 수량: "<<numOfApples<<endl;
         cout<<"남은 소지금: "<<myMoney<<endl<<endl;
