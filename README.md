@@ -41,8 +41,14 @@ ${file} the file open in the active editor
 
 4. args : 실행할 명령어 뒤에 붙는 argument들이다.
 
-5. options : 기타등등 여러가지 환경 변수값들을 기록하는 곳이다. cwd는 현재 working directory를 뜻한다. 
+# 논제
 
-6. problemMatcher : 컴파일러들이 마다 Warning, Error 출력하는 규칙이 다르다. 정규식 표현 등을 이용하여 벹어내는 Warning, Error 들을 파싱하여 “출력”창에 뿌려주게끔 설정한다. 하지만 C/C++ Extention을 쓰기 때문에 자동으로 처리르 해 준다. problemMatcher는 추가설정 없이 “$gcc”만 냅두면, Extention에게 맡겨지게 된다.
+## 캡슐화 vs 모듈화
 
-7. group : task 파일이 어느 그룹에 속하는지를 나타낸다. 그룹으로 여러 task를 묶을 수있다.
+## 포인터 vs 참조자
+
+6. options : 기타등등 여러가지 환경 변수값들을 기록하는 곳이다. cwd는 현재 working directory를 뜻한다. 
+
+7. problemMatcher : 컴파일러들이 마다 Warning, Error 출력하는 규칙이 다르다. 정규식 표현 등을 이용하여 벹어내는 Warning, Error 들을 파싱하여 “출력”창에 뿌려주게끔 설정한다. 하지만 C/C++ Extention을 쓰기 때문에 자동으로 처리르 해 준다. problemMatcher는 추가설정 없이 “$gcc”만 냅두면, Extention에게 맡겨지게 된다.
+
+8. group : task 파일이 어느 그룹에 속하는지를 나타낸다. 그룹으로 여러 task를 묶을 수있다.
