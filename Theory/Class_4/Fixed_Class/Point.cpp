@@ -1,11 +1,3 @@
-/*
-    엑세스함수
-    get, set을 이용하여 멤버변수를 private으로 선언하고 클래스 외부에서의 접근을 목적으로 함
-    함수는 정의되었으되 호출되지 않는 경우가 많다.
-
-*/
-
-
 #include "Point.h"
 #include <iostream>
 using namespace std;
