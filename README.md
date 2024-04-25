@@ -9,7 +9,7 @@ https://heannim-world.tistory.com/130
 ## STL 공부하자 영어임
 https://github.com/douglascraigschmidt/CPlusPlus
 
-## 유튜브
+## STL유튜브
 https://www.youtube.com/watch?v=6Gyl5wi3yi4&t=756s
 
 ## vscode c++세팅
