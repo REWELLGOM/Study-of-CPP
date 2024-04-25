@@ -7,10 +7,8 @@
 #### 용도
 코드 작성의 편의성을 높이기위한 용도
 
-## 가독성UP
-
 <details>
-<summary>접기/펼치기</summary>
+<summary>가독성UP</summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
 ## 함수 오버로딩(Function OverLoading)
@@ -20,5 +18,3 @@
 #### 용도
 다형성과 사용자 편의를 제공하기 위한 용도
 </details>
-
-## 접기 끝
