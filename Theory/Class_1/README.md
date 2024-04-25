@@ -11,11 +11,10 @@
 다형성과 사용자 편의를 제공하기 위한 용도
 </details>
 
-
+## 편의성
 <details>
-<summary>편의성</summary>
-
-## 매개변수의 디폴트 값(Default Value)
+<summary>매개변수의 디폴트 값(Default Value)</summary>
+  
 ### 매개변수의 값을 미리 지정하는 것
 #### 용도
 코드 작성의 편의성을 높이기위한 용도
