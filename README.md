@@ -1,6 +1,7 @@
-# 시각적으로 보기 편하게하기위해서 각각의 효능별로 기능을 나눠놨음
+# 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
+For visual convenience, the functions are divided by each feature
 
-## 가독성
+## 가독성(Readability)
 <details>
 <summary>함수 오버로딩(Function OverLoading)</summary>
   
@@ -11,7 +12,7 @@
 다형성과 사용자 편의를 제공하기 위한 용도
 </details>
 
-## 편의성
+## 편의성(Convenience)
 <details>
 <summary>매개변수의 디폴트 값(Default Value)</summary>
   
