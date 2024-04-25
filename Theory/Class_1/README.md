@@ -1,14 +1,7 @@
-# 가독성UP
-## 함수 오버로딩(Function OverLoading)
-
-
-## 매개변수의 디폴트 값(Default Value)
-### 매개변수의 값을 미리 지정하는 것
-#### 용도
-코드 작성의 편의성을 높이기위한 용도
+# 각각의 주요 용도별로 구별해놓음
 
 <details>
-<summary>가독성UP</summary>
+<summary>가독성</summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
 ## 함수 오버로딩(Function OverLoading)
@@ -17,4 +10,14 @@
 함수 하나에 다양한 타입의 인자를 받을수 있게해서 가독성을 올림
 #### 용도
 다형성과 사용자 편의를 제공하기 위한 용도
+</details>
+
+
+<details>
+<summary>편의성</summary>
+
+## 매개변수의 디폴트 값(Default Value)
+### 매개변수의 값을 미리 지정하는 것
+#### 용도
+코드 작성의 편의성을 높이기위한 용도
 </details>
