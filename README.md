@@ -2,7 +2,7 @@
 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
 
 
-## <span style="background-color:#C0FFFF"> Readability(가독성) </span>
+# Readability(가독성)
 <details>
 <summary>Function OverLoading(함수 오버로딩)</summary>
   
@@ -16,7 +16,7 @@
 다형성과 사용자 편의를 제공하기 위한 용도
 </details>
 
-## <span style="background-color:#C0FFFF"> Convenience(편의성) </span>
+# Convenience(편의성)
 <details>
 <summary>Default value for parameters(매개변수의 기본값)</summary>
   
