@@ -1,12 +1,14 @@
-# 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
-For visual convenience, the functions are divided by each feature
+# For visual convenience, the functions are divided by each feature
+시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
 
-## 가독성(Readability)
+
+## Readability(가독성)
 <details>
-<summary>함수 오버로딩(Function OverLoading)</summary>
+<summary>Function OverLoading(함수 오버로딩)</summary>
   
-### 함수 호출 시 전달되는 인자를통해서 호출하고자 하는 함수의 구분이 가능하기 때문에 함수명이 같더라도 매개변수의 선언형태(인자의 개수 차이, 자료형 차이등)가 다르면 다른 함수로 정의
-### 요약
+### Unless fuction name is same If declaration form of parameters is different it is declaration of other function. Cause factor which thorough function called we can divide fuction
+함수 호출 시 전달되는 인자를통해서 호출하고자 하는 함수의 구분이 가능하기 때문에 함수명이 같더라도 매개변수의 선언형태(인자의 개수 차이, 자료형 차이등)가 다르면 다른 함수로 정의
+### Summary(요약)
 함수 하나에 다양한 타입의 인자를 받을수 있게해서 가독성을 올림
 ### 용도
 다형성과 사용자 편의를 제공하기 위한 용도
