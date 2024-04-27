@@ -37,4 +37,25 @@
 ## Pointer vs Reference
 포인터 vs 참조자
 
+<details>
+<summary>Pointer(포인터)</summary>
+최초 생성된 후에 다른 주소를 가르킬수 있다(새 메모리주소, 새액터, 새컴포넌트 등등)
+null값을 나타낼 수 있다.
 
+예시
+*AcotrPtr contents에 접근할때
+ActorPtr address에 접근할때
+ActorPtr = &Actor address변경 할때
+*ActorPtr = Actor value를 변경할때
+</details>
+
+<details>
+<summary>Reference(참조)</summary>
+  
+최초 생성해서 한번'만' 가르킬수 있다.
+null값을 나타낼 수 없다(안정성이 있다)
+예시
+ActorRef contents에 접근할때
+&ActorRef address에 접근할때
+ActorRef = Actor value를 변경할
+</details>
