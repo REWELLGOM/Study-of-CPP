@@ -75,3 +75,7 @@ DamageRef = 12.5;
 UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
  ```
 </details>
+
+아웃 매개변수
+선언만되고 함수로 전달하기 직전에 아무 값도 안넣었다면
+참조가 매개변수인데 const가 아니라면
