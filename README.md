@@ -61,10 +61,15 @@ UE_LOG(LogTemp, Display, TEXT("Damage: %f, DamagePtr: %f"),Damage, *DamagePtr);
 <summary>Reference(참조)</summary>
   
 최초 생성해서 한번'만' 가르킬수 있다.
+
 null값을 나타낼 수 없다(안정성이 있다)
+
 예시
+
 ActorRef contents에 접근할때
+
 &ActorRef address에 접근할때
+
 ActorRef = Actor value를 변경할
 
 Ex Code)
