@@ -49,10 +49,12 @@ ActorPtr = &Actor address변경 할때
 *ActorPtr = Actor value를 변경할때
 
 Ex Code)
+'''
 float Damage = 0;
 	float* DamagePtr = &Damage;
 	*DamagePtr = 5.5;
 	UE_LOG(LogTemp, Display, TEXT("Damage: %f, DamagePtr: %f"),Damage, *DamagePtr);
+ '''
 </details>
 
 <details>
@@ -66,8 +68,10 @@ ActorRef contents에 접근할때
 ActorRef = Actor value를 변경할
 
 Ex Code)
+'''
 float Damage = 0;
 	float& DamageRef = Damage;
 	DamageRef = 12.5;
 	UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
+ '''
 </details>
