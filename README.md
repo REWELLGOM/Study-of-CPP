@@ -84,8 +84,8 @@ Make alias for object
 
 
 
-<details>
-<summary>Easily confusing thing</summary>
+
+# Easily confusing thing
   
 쉽게 헷갈릴 수 있는것들
 
