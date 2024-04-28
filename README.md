@@ -101,15 +101,21 @@ Make alias for object
 
 
 
-<details>
-<summary>Easily confusing thing</summary>
+
+# Easily confusing thing
   
 쉽게 헷갈릴 수 있는것들
 
-## Capsulelize vs Modulize
+<details>
+<summary>Capsulelize vs Modulize</summary>
+
 캡슐화 vs 모듈화
 
-## Pointer vs Reference
+</details>
+
+<details>
+<summary>Pointer vs Reference</summary>
+  
 포인터 vs 참조자
 
 <details>
