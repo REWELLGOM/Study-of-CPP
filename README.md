@@ -8,6 +8,8 @@
 ### Use to define constants as a group
 상수들을 하나의 그룹으로 묶어서 정의하는 데 사용
 
+-------------------------------------------------
+
 </details>
 
 <details>
@@ -32,6 +34,8 @@ BluePrint of object
 Modulelize
 모듈화
 
+-------------------------------------------------
+
 </details>
 
 <details>
@@ -42,6 +46,9 @@ Modulelize
 
 ### Summary(요약)
 함수 하나에 다양한 타입의 인자를 받을수 있게해서 가독성을 올림
+
+-------------------------------------------------
+
 </details>
 
 <details>
@@ -52,6 +59,8 @@ Modulelize
 
 ### Summary(요약)
 Modulelize
+
+-------------------------------------------------
 
 </details>
 
@@ -67,6 +76,8 @@ Modulelize
 Mecro Function
 메크로 함수
 
+-------------------------------------------------
+
 </details> 
 
 <details>
@@ -74,6 +85,8 @@ Mecro Function
 
 ### Operator used to dynamically allocate and release memory
 동적으로 메모리를 할당하고 해제하는 데 사용되는 연산자
+
+-------------------------------------------------
 
 </details> 
 
@@ -87,6 +100,8 @@ Mecro Function
 Make alias for object
 객체에 대한 별명(alias)을 만드는 거
 
+-------------------------------------------------
+
 </details> 
 
 # Convenience(편의성)
@@ -98,6 +113,9 @@ Make alias for object
 
 #### Purpose(용도)
 코드 작성의 편의성을 높이기위한 용도
+
+-------------------------------------------------
+
 </details>
 
 
@@ -137,6 +155,9 @@ float* DamagePtr = &Damage;
 *DamagePtr = 5.5;
 UE_LOG(LogTemp, Display, TEXT("Damage: %f, DamagePtr: %f"),Damage, *DamagePtr);
  ```
+
+-------------------------------------------------
+
 </details>
 
 <details>
@@ -156,5 +177,8 @@ float& DamageRef = Damage;
 DamageRef = 12.5;
 UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
  ```
+
+-------------------------------------------------
+
 </details>
 </details>
