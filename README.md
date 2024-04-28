@@ -19,6 +19,8 @@
 ### Summary(요약)
 BluePrint of object
 객체의 설계도
+
+-------------------------------------------------
 </details>
 <details>
 <summary>Structure(구조체)</summary>
