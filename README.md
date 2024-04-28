@@ -87,8 +87,6 @@ Make alias for object
 
 </details> 
 
--------------------------------------------------------------------------------
-
 # Convenience(편의성)
 <details>
 <summary>Default value for parameters(매개변수의 기본값)</summary>
