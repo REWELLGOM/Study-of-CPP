@@ -1,8 +1,7 @@
 # For visual convenience, the functions are divided by each feature
 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
 
-
-# Readability(가독성)
+# Recyclebility(재사용성)
 <details>
 <summary>Function OverLoading(함수 오버로딩)</summary>
   
@@ -11,10 +10,32 @@
 
 ### Summary(요약)
 함수 하나에 다양한 타입의 인자를 받을수 있게해서 가독성을 올림
-
-### Purpose(용도)
-다형성과 사용자 편의를 제공하기 위한 용도
 </details>
+
+<details>
+<summary>Namespace(네임 스페이스)</summary>
+
+### Organize name
+이름을 그룹화함
+
+### Summary(요약)
+Modulelize
+
+</details>
+
+# Improved performance(성능 향상)
+
+<details>
+<summary>InlineFunction(인라인 함수)</summary>
+
+### Minimize number of calling to increase running speed
+호출을 최소화하여 프로그램의 실행 속도를 높이는 함수
+
+### Summary(요약)
+Mecro Function
+메크로 함수
+
+</details> 
 
 # Convenience(편의성)
 <details>
@@ -28,7 +49,10 @@
 </details>
 
 
-# Easily confusing thing
+
+<details>
+<summary>Easily confusing thing</summary>
+  
 쉽게 헷갈릴 수 있는것들
 
 ## Capsulelize vs Modulize
@@ -75,7 +99,4 @@ DamageRef = 12.5;
 UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
  ```
 </details>
-
-아웃 매개변수
-선언만되고 함수로 전달하기 직전에 아무 값도 안넣었다면
-참조가 매개변수인데 const가 아니라면
+</details>
