@@ -2,7 +2,24 @@
 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
 
 # Recyclebility(재사용성)
+<details>
+<summary>Enum</summary>
 
+### Use to define constants as a group
+상수들을 하나의 그룹으로 묶어서 정의하는 데 사용
+
+</details>
+
+<details>
+<summary>Class</summary>
+
+### User-defined data types defined by combining data with the functions (methods) that process it
+데이터와 해당 데이터를 처리하는 함수(메서드)를 함께 묶어서 정의한 사용자 정의 데이터 형식
+
+### Summary(요약)
+BluePrint of object
+객체의 설계도
+</details>
 <details>
 <summary>Structure(구조체)</summary>
 
