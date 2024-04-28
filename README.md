@@ -2,6 +2,19 @@
 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
 
 # Recyclebility(재사용성)
+
+<details>
+<summary>Structure(구조체)</summary>
+
+### Manage variables in different data formats in a single unit
+다른 데이터 형식의 변수들을 하나의 단위로 묶어서 관리
+
+### Summary(요약)
+Modulelize
+모듈화
+
+</details>
+
 <details>
 <summary>Function OverLoading(함수 오버로딩)</summary>
   
@@ -13,7 +26,7 @@
 </details>
 
 <details>
-<summary>Namespace(네임 스페이스)</summary>
+<summary>Namespace</summary>
 
 ### Organize name
 이름을 그룹화함
@@ -36,6 +49,27 @@ Mecro Function
 메크로 함수
 
 </details> 
+
+<details>
+<summary>New&Delete</summary>
+
+### Operator used to dynamically allocate and release memory
+동적으로 메모리를 할당하고 해제하는 데 사용되는 연산자
+
+</details> 
+
+<details>
+<summary>Reference(참조자)</summary>
+
+### To provide nickname for a variable so that it can be referenced
+변수의 다른 이름을 제공하여 해당 변수를 참조할 수 있게하는 것
+
+### Sumarry(요약)
+Make alias for object
+객체에 대한 별명(alias)을 만드는 거
+
+</details> 
+
 
 # Convenience(편의성)
 <details>
