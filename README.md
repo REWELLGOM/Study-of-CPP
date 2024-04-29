@@ -316,3 +316,14 @@ UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
 
 </details>
 </details>
+
+<details>
+<summary>About #include <csting></summary>  
+
+append(): 문자열의 끝에 다른 문자열을 추가합니다.
+replace(): 문자열의 일부를 다른 문자열로 대체합니다.
+find(): 문자열 내에서 특정 문자열이나 문자의 첫 번째 인덱스를 찾습니다.
+substr(): 문자열의 특정 부분을 추출하여 새 문자열을 생성합니다.
+size() 또는 length(): 문자열의 길이를 반환합니다.
+
+</details>
