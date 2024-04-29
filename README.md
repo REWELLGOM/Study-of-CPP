@@ -2,11 +2,34 @@
 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
 
 # Recyclebility(재사용성)
+
 <details>
 <summary>Enum</summary>
 
 ### Use to define constants as a group
 상수들을 하나의 그룹으로 묶어서 정의하는 데 사용
+
+```cpp
+namespace Player_Var
+{
+    enum
+    {
+        ID_LEN = 20,
+        CUR_ATK = 200,
+        CUR_LV = 10,
+        CUR_DEF = 10,
+    };
+}
+
+struct Player
+{
+    char gamerID[Player_Var::ID_LEN];
+    void ShowCarState()
+    {
+        cout << "소유자 ID: " << gamerID << endl;
+    }
+};
+```
 
 -------------------------------------------------
 
@@ -19,8 +42,6 @@
 데이터와 해당 데이터를 처리하는 함수(메서드)를 함께 묶어서 정의한 사용자 정의 데이터 형식
 
 ```cpp
-#include <string>
-
 class Name
 {
 private:
@@ -28,15 +49,16 @@ private:
     std::string name;
 
 public:
-    void InitMembers(const char* name, float speed);
+    // 매개변수 이름을 멤버 변수 이름과 다르게 변경
+    void InitMembers(const char* newName, float newSpeed);
 };
 
-void Name::InitMembers(const char* name, float speed)
+void Name::InitMembers(const char* newName, float newSpeed)
 {
-    this->name = name;
-    this->speed = speed;
+    // 매개변수와 멤버 변수를 명확히 구분하여 할당
+    name = newName;
+    speed = newSpeed;
 }
-
 ```
 
 -------------------------------------------------
@@ -46,10 +68,6 @@ void Name::InitMembers(const char* name, float speed)
 
 ### Manage variables in different data formats in a single unit
 다른 데이터 형식의 변수들을 하나의 단위로 묶어서 관리
-
-### Summary(요약)
-Modulelize
-모듈화
 
 -------------------------------------------------
 
@@ -61,9 +79,6 @@ Modulelize
 ### Unless fuction name is same If declaration form of parameters is different it is declaration of other function. Cause factor which thorough function called we can divide fuction
 함수 호출 시 전달되는 인자를통해서 호출하고자 하는 함수의 구분이 가능하기 때문에 함수명이 같더라도 매개변수의 선언형태(인자의 개수 차이, 자료형 차이등)가 다르면 다른 함수로 정의
 
-### Summary(요약)
-함수 하나에 다양한 타입의 인자를 받을수 있게해서 가독성을 올림
-
 -------------------------------------------------
 
 </details>
@@ -73,9 +88,6 @@ Modulelize
 
 ### Organize name
 이름을 그룹화함
-
-### Summary(요약)
-Modulelize
 
 -------------------------------------------------
 
@@ -88,10 +100,6 @@ Modulelize
 
 ### Minimize number of calling to increase running speed
 호출을 최소화하여 프로그램의 실행 속도를 높이는 함수
-
-### Summary(요약)
-Mecro Function
-메크로 함수
 
 -------------------------------------------------
 
@@ -113,10 +121,6 @@ Mecro Function
 ### To provide nickname for a variable so that it can be referenced
 변수의 다른 이름을 제공하여 해당 변수를 참조할 수 있게하는 것
 
-### Sumarry(요약)
-Make alias for object
-객체에 대한 별명(alias)을 만드는 거
-
 -------------------------------------------------
 
 </details> 
@@ -127,9 +131,6 @@ Make alias for object
   
 ### To specify the value of a parameter in advance
 매개변수의 값을 미리 지정하는 것
-
-#### Purpose(용도)
-코드 작성의 편의성을 높이기위한 용도
 
 -------------------------------------------------
 
