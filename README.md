@@ -321,13 +321,13 @@ UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
 <details>
 <summary>String vs char</summary>
 
-Char ('')
-Control simple Char data, Control memory usage and processing more precisely
-단순한 문자 데이터를 다룰 때, 메모리 사용과 처리 과정을 더 정밀하게 제어할 수 있습니다
+Char ('')  
+Control simple Char data, Control memory usage and processing more precisely  
+단순한 문자 데이터를 다룰 때, 메모리 사용과 처리 과정을 더 정밀하게 제어할 수 있습니다  
 
-String ("")
-Control complicate string, Prevent normal problem like memory overflow
-복잡한 문자열 처리가 필요할 때,  메모리 오버플로우와 같은 일반적인 문제를 방지
+String ("")  
+Control complicate string, Prevent normal problem like memory overflow  
+복잡한 문자열 처리가 필요할 때,  메모리 오버플로우와 같은 일반적인 문제를 방지  
 
 </details>
 
