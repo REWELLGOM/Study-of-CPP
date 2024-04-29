@@ -49,13 +49,11 @@ private:
     std::string name;
 
 public:
-    // 매개변수 이름을 멤버 변수 이름과 다르게 변경
     void InitMembers(const char* newName, float newSpeed);
 };
 
 void Name::InitMembers(const char* newName, float newSpeed)
 {
-    // 매개변수와 멤버 변수를 명확히 구분하여 할당
     name = newName;
     speed = newSpeed;
 }
