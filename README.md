@@ -116,6 +116,36 @@ int main()
 ### Unless fuction name is same If declaration form of parameters is different it is declaration of other function. Cause factor which thorough function called we can divide fuction
 함수 호출 시 전달되는 인자를통해서 호출하고자 하는 함수의 구분이 가능하기 때문에 함수명이 같더라도 매개변수의 선언형태(인자의 개수 차이, 자료형 차이등)가 다르면 다른 함수로 정의
 
+```cpp
+void applyDamage(int& health, int damage) {
+    health -= damage;
+    cout << "Health reduced by " << damage << " points." << endl;
+}
+// 오버로딩된 함수: 추가로 방어력을 고려
+void applyDamage(int& health, int damage, int armor) {
+    int effectiveDamage = damage - armor;
+    if (effectiveDamage < 0) effectiveDamage = 0;
+    health -= effectiveDamage;
+    cout << "Health reduced by " << effectiveDamage << " points after armor." << endl;
+}
+// 오버로딩된 함수: 데미지의 유형에 따라 다르게 처리
+void applyDamage(int& health, int damage, string damageType) {
+    if (damageType == "Fire") {
+        damage += 5; // 불 데미지는 추가 데미지 포인트가 있음
+    }
+    health -= damage;
+    cout << "Health reduced by " << damage << " points due to " << damageType << " damage." << endl;
+}
+int main() {
+    int myHealth = 100;
+    applyDamage(myHealth, 10);  // 기본 데미지
+    applyDamage(myHealth, 20, 5);  // 방어력 고려
+    applyDamage(myHealth, 15, "Fire");  // 데미지 유형 고려
+    return 0;
+}
+
+```
+
 -------------------------------------------------
 
 </details>
