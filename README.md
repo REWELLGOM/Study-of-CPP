@@ -1,6 +1,30 @@
 # For visual convenience, the functions are divided by each feature
 시각적으로 보기 편하게하기위해서 각각의 특징별로 기능을 나눠놨음
 
+<details>
+<summary>STL</summary>
+
+```cpp
+double d = max<double>(5.5,2); //all var type is double
+
+int i = max<int,char,char>('a','b');
+
+template<typename T>
+void f(T x, T y)
+{
+    cout<<"Template"<<endl;
+}
+```
+<details>
+<summary>Template</summary>
+
+
+-----------------------------------------------------
+</details>
+
+
+</details>
+
 # Recyclebility(재사용성)
 
 <details>
