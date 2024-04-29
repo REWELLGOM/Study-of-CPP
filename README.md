@@ -19,16 +19,23 @@
 데이터와 해당 데이터를 처리하는 함수(메서드)를 함께 묶어서 정의한 사용자 정의 데이터 형식
 
 ```cpp
-Class Name
+#include <string>
+
+class Name
 {
-Private:
+private:
+    float speed;
+    std::string name;
 
-Protecte:
-
-Public:
-
+public:
+    void InitMembers(const char* name, float speed);
 };
 
+void Name::InitMembers(const char* name, float speed)
+{
+    this->name = name;
+    this->speed = speed;
+}
 
 ```
 
