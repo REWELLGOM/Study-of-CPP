@@ -9,27 +9,48 @@
 ### Use to define constants as a group
 상수들을 하나의 그룹으로 묶어서 정의하는 데 사용
 
+<details>
+<summary>Code</summary>
 ```cpp
-namespace Player_Var
+enum class ECharacterState
 {
-    enum
-    {
-        ID_LEN = 20,
-        CUR_ATK = 200,
-        CUR_LV = 10,
-        CUR_DEF = 10,
-    };
-}
+    Idle,
+    Walking
+};
 
-struct Player
-{
-    char gamerID[Player_Var::ID_LEN];
-    void ShowCarState()
+public:
+    Character() : CurrentState(ECharacterState::Idle) {}
+
+    void UpdateState(ECharacterState NewState)
     {
-        cout << "소유자 ID: " << gamerID << endl;
+        CurrentState = NewState;
+        switch (CurrentState)
+        {
+            case ECharacterState::Idle:
+                // Handle idle state
+                break;
+            case ECharacterState::Walking:
+                // Handle walking state
+                break;
+        }
+    }
+
+    ECharacterState GetState() const
+    {
+        return CurrentState;
     }
 };
+
+int main()
+{
+    Character myCharacter;
+    myCharacter.UpdateState(ECharacterState::Running);  // 상태를 Running으로 변경
+    ECharacterState currentState = myCharacter.GetState(); // 현재 상태를 가져옴
+
+    return 0;
+}
 ```
+</details>
 
 -------------------------------------------------
 
@@ -67,6 +88,31 @@ void Name::InitMembers(const char* newName, float newSpeed)
 ### Manage variables in different data formats in a single unit
 다른 데이터 형식의 변수들을 하나의 단위로 묶어서 관리
 
+```cpp
+namespace Player_Var
+{
+    enum
+    {
+        ID_LEN = 20,
+        CUR_ATK = 200,
+        CUR_LV = 10,
+        CUR_DEF = 10,
+    };
+}
+
+struct Player
+{
+    char gamerID[Player_Var::ID_LEN];
+    void ShowCarState();
+};
+
+ void ShowCarState()
+{
+    cout << "소유자 ID: " << gamerID << endl;
+}
+
+```
+
 -------------------------------------------------
 
 </details>
@@ -86,6 +132,39 @@ void Name::InitMembers(const char* newName, float newSpeed)
 
 ### Organize name
 이름을 그룹화함
+
+```cpp
+namespace Player
+{
+    class PlayerCharacter
+    {
+    public:
+        void MoveForward(float Value);
+        void MoveRight(float Value);
+    };
+}
+
+namespace AI
+{
+    class EnemyCharacter
+    {
+    public:
+        void Patrol();
+        void Chase();
+    };
+}
+
+void SetupGame()
+{
+    Player::PlayerCharacter player;
+    AI::EnemyCharacter enemy;
+
+    player.MoveForward(1.0f);
+    player.MoveRight(1.0f);
+    
+    enemy.Patrol();
+}
+```
 
 -------------------------------------------------
 
