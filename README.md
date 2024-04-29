@@ -81,26 +81,27 @@ void Name::InitMembers(const char* newName, float newSpeed)
 다른 데이터 형식의 변수들을 하나의 단위로 묶어서 관리
 
 ```cpp
-namespace Player_Var
+struct CharacterStats
 {
-    enum
-    {
-        ID_LEN = 20,
-        CUR_ATK = 200,
-        CUR_LV = 10,
-        CUR_DEF = 10,
-    };
-}
-
-struct Player
-{
-    char gamerID[Player_Var::ID_LEN];
-    void ShowCarState();
+    int Health;
+    int Mana;
+    int Armor;
+    float Speed;
+    CharacterStats(int health, int mana, int armor, float speed)
+        : Health(health), Mana(mana), Armor(armor), Speed(speed) {}
 };
-
- void ShowCarState()
+void printStats(const CharacterStats& stats)
 {
-    cout << "소유자 ID: " << gamerID << endl;
+    std::cout << "Health: " << stats.Health << std::endl;
+    std::cout << "Mana: " << stats.Mana << std::endl;
+    std::cout << "Armor: " << stats.Armor << std::endl;
+    std::cout << "Speed: " << stats.Speed << " units/sec" << std::endl;
+}
+int main()
+{
+    CharacterStats myCharacter(100, 50, 25, 4.5f);
+    printStats(myCharacter);
+    return 0;
 }
 
 ```
