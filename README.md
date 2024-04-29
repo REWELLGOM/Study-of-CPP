@@ -316,6 +316,8 @@ UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
 
 </details>
 
+</details>
+
 <details>
 <summary>String vs char</summary>
 
@@ -327,7 +329,6 @@ String ("")
 Control complicate string, Prevent normal problem like memory overflow
 복잡한 문자열 처리가 필요할 때,  메모리 오버플로우와 같은 일반적인 문제를 방지
 
-</details>
 </details>
 
 # About HeaderFile
