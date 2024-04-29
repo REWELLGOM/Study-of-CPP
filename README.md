@@ -70,6 +70,7 @@ int main()
 {
     Point point;    
     point.Print();
+    return 0;
 }
 ```
 
@@ -201,6 +202,17 @@ void SetupGame()
 
 ### Minimize number of calling to increase running speed
 호출을 최소화하여 프로그램의 실행 속도를 높이는 함수
+
+```cpp
+inline int Add(int x, int y) {
+    return x + y;
+}
+
+int main() {
+    int sum = Add(5, 3);
+    reutnr 0;
+}
+```
 
 -------------------------------------------------
 
