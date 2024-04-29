@@ -18,9 +18,19 @@
 ### User-defined data types defined by combining data with the functions (methods) that process it
 데이터와 해당 데이터를 처리하는 함수(메서드)를 함께 묶어서 정의한 사용자 정의 데이터 형식
 
-### Summary(요약)
-BluePrint of object
-객체의 설계도
+```cpp
+Class Name
+{
+Private:
+
+Protecte:
+
+Public:
+
+};
+
+
+```
 
 -------------------------------------------------
 </details>
