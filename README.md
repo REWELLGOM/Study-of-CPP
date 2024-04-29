@@ -55,20 +55,21 @@ int main()
 데이터와 해당 데이터를 처리하는 함수(메서드)를 함께 묶어서 정의한 사용자 정의 데이터 형식
 
 ```cpp
-class Name
+class Point
 {
 private:
-    float speed;
-    std::string name;
-
+    int x, y;
 public:
-    void InitMembers(const char* newName, float newSpeed);
+    Point(int x = 0, int y = 0) : x(x), y(y) {}
+    void SetPoint(int newX, int newY) {
+        x = newX;
+        y = newY;
+    }
 };
-
-void Name::InitMembers(const char* newName, float newSpeed)
+int main()
 {
-    name = newName;
-    speed = newSpeed;
+    Point point;    
+    point.Print();
 }
 ```
 
