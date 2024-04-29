@@ -25,41 +25,10 @@ public:
 };
 
 
-class Circle
-{
-private:
-    Point xpos;
-    Point ypos;
-public:
-    void Init()
-    {
-
-    }
-};
-
-
-class Ring
-{
-private:
-    Circle OutRadius;
-    Circle InRadius;
-    int x,y,r,x2,y2,r2;
-public:
-    Circle Init(int x,int y,int r,int x2,int y2,int r2)
-    {
-        
-    }
-
-    void ShowRingInfo()
-    {
-        cout<<r2 - r<<endl;
-    }
-};
-
 int main(void)
 {
     Ring ring;
-    ring.Init(1,1,4,2,2,9);
+    ring.Init(1,1,4,2,2,9); //여기 코드 자알 생각해봐
     ring.ShowRingInfo();
     return 0;
 }
