@@ -10,9 +10,7 @@ private:
 
 public:
     FruitSeller(int price, int num, int money)
-        :APPLE_PRICE(price), numOfApples(num), myMoney(money)
-    {
-    }
+        :APPLE_PRICE(price), numOfApples(num), myMoney(money){}
     int SaleApples(int money)
     {
         int num = money/APPLE_PRICE;
