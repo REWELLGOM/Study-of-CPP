@@ -70,6 +70,9 @@ int main()
 {
     Point point;    
     point.Print();
+
+    point.SetPoint(5, 3); 
+    point.Print();
     return 0;
 }
 ```
