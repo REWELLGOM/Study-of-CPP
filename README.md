@@ -9,8 +9,6 @@
 ### Use to define constants as a group
 상수들을 하나의 그룹으로 묶어서 정의하는 데 사용
 
-<details>
-<summary>Code</summary>
 ```cpp
 enum class ECharacterState
 {
@@ -20,40 +18,32 @@ enum class ECharacterState
 
 public:
     Character() : CurrentState(ECharacterState::Idle) {}
-
     void UpdateState(ECharacterState NewState)
     {
         CurrentState = NewState;
         switch (CurrentState)
         {
             case ECharacterState::Idle:
-                // Handle idle state
                 break;
             case ECharacterState::Walking:
-                // Handle walking state
                 break;
         }
     }
-
     ECharacterState GetState() const
     {
         return CurrentState;
     }
 };
-
 int main()
 {
     Character myCharacter;
     myCharacter.UpdateState(ECharacterState::Running);  // 상태를 Running으로 변경
     ECharacterState currentState = myCharacter.GetState(); // 현재 상태를 가져옴
-
     return 0;
 }
 ```
 
 -------------------------------------------------
-
-</details>
 
 </details>
 
