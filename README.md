@@ -319,7 +319,7 @@ UE_LOG(LogTemp, Display, TEXT("RefDamage: %f, Damage: %f"), DamageRef, Damage);
 
 # About HeaderFile
 <details>
-<summary>About #include <csting></summary>  
+<summary> #include<csting></summary>  
 
 append(): 문자열의 끝에 다른 문자열을 추가합니다.
 replace(): 문자열의 일부를 다른 문자열로 대체합니다.
