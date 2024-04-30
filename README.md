@@ -4,7 +4,8 @@
 <details>
 <summary>STL</summary>
 
-# Template
+<details>
+<summary>Template</summary>
 ```cpp
 double d = max<double>(5.5,2); //all var type is double
 
@@ -16,9 +17,10 @@ void f(T x, T y)
     cout<<"Template"<<endl;
 }
 ```
-<details>
-<summary>Template</summary>
+</details>
 
+<details>
+<summary>Sort</summary>
 # Sort
 
 ```cpp
