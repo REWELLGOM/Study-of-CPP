@@ -4,6 +4,7 @@
 <details>
 <summary>STL</summary>
 
+# Template
 ```cpp
 double d = max<double>(5.5,2); //all var type is double
 
@@ -18,7 +19,25 @@ void f(T x, T y)
 <details>
 <summary>Template</summary>
 
+# Sort
 
+```cpp
+
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int solution(vector<int> array) {
+    int answer = 0;
+    sort(array.begin(), array.end());
+    int avg = array.size() / 2;
+    answer = array[avg];
+    return answer;
+}
+
+```
 -----------------------------------------------------
 </details>
 
