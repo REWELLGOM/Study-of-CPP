@@ -6,6 +6,7 @@
 
 <details>
 <summary>Template</summary>
+
 ```cpp
 double d = max<double>(5.5,2); //all var type is double
 
@@ -21,7 +22,6 @@ void f(T x, T y)
 
 <details>
 <summary>Sort</summary>
-# Sort
 
 ```cpp
 
