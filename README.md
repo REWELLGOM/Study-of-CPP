@@ -272,6 +272,17 @@ int main() {
 ### Operator used to dynamically allocate and release memory
 동적으로 메모리를 할당하고 해제하는 데 사용되는 연산자
 
+```cpp
+#include <iostream>
+int main() {
+    int* num = new int;  // 동적으로 정수 메모리를 할당
+    *num = 10;           // 할당된 메모리에 10을 저장
+    std::cout << *num << std::endl;  // 메모리에 저장된 값을 출력
+    delete num;          // 동적으로 할당된 메모리를 해제
+    return 0;
+}
+```
+
 -------------------------------------------------
 
 </details> 
