@@ -408,19 +408,24 @@ Control complicate string, Prevent normal problem like memory overflow
 <details>
 <summary>csting</summary>  
 
-append():Append other string at the end of string  
+### append()
+Append other string at the end of string    
 문자열의 끝에 다른 문자열을 추가  
 
-replace(): Replace part to other string  
+### replace()  
+Replace part to other string  
 문자열의 일부를 다른 문자열로 대체  
 
-find(): Find specific sting or first index of char in sting  
+### find()
+Find specific sting or first index of char in sting  
 문자열 내에서 특정 문자열이나 문자의 첫 번째 인덱스를 찾음  
 
-substr(): Inject specific part of string to make new string
+### substr()
+Inject specific part of string to make new string
 문자열의 특정 부분을 추출하여 새 문자열을 생성  
 
-size() Or length(): Return string length
-문자열의 길이를 반환
+### size() Or length()  
+Return string length  
+문자열의 길이를 반환  
 
 </details>
