@@ -293,6 +293,23 @@ int main() {
 ### To provide nickname for a variable so that it can be referenced
 변수의 다른 이름을 제공하여 해당 변수를 참조할 수 있게하는 것
 
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int original = 100;   // 원본 변수
+    int& ref = original;  // 원본 변수에 대한 참조자
+
+    cout << "Original: " << original << ", Reference: " << ref << endl;
+    ref += 100;           // 참조자를 통해 원본 변수 수정
+    cout << "Original: " << original << ", Reference: " << ref << endl;
+
+    return 0;
+}
+```
+
+
 -------------------------------------------------
 
 </details> 
