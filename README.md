@@ -435,8 +435,23 @@ Return string length
 <details>
 <summary>Extra</summary>
 
-### for (int num : numbers)  
+### for(TypeName val : val2)  
 Assign each element of numbers to repeat each element  
 numbers의 각 요소를 num에 하나씩 할당하여 반복  
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> numbers = {1, 2, 3, 4, 5};
+
+    for (int num : numbers) {
+        cout << num << " ";
+    }
+    return 0;
+}
+```
 
 </details>
