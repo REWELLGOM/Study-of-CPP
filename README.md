@@ -429,3 +429,14 @@ Return string length
 문자열의 길이를 반환  
 
 </details>
+
+
+
+<details>
+<summary>Extra</summary>
+
+### for (int num : numbers)  
+Assign each element of numbers to repeat each element  
+numbers의 각 요소를 num에 하나씩 할당하여 반복  
+
+</details>
