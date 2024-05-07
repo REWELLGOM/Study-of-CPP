@@ -435,8 +435,34 @@ Return string length
 
 ### sort(array.begin(), array.end())
 Order in ascending order from beginning to end
-오름차순으로 정
+오름차순으로 정렬
+</details>
 
+<details>
+<summary>limits</summary>  
+
+### max()
+```cpp
+numeric_limits<T>::max()
+```
+Return maximum
+최댓값을 반
+
+### min()
+```cpp
+numeric_limits<T>::min()
+```
+Return minimum
+최소값을 반환
+
+### digits
+```cpp
+numeric_limits<char>::digits
+```
+Indicates the number of significant numeric bits
+유효 숫자 비트 수를 나타냄
+</details>
+    
 -----
 
 <details>
