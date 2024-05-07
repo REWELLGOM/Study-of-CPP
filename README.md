@@ -430,6 +430,13 @@ Return string length
 
 </details>
 
+<details>
+<summary>algorithm</summary>  
+
+### sort(array.begin(), array.end())
+Order in ascending order from beginning to end
+오름차순으로 정
+
 -----
 
 <details>
@@ -453,5 +460,4 @@ int main() {
     return 0;
 }
 ```
-
 </details>
