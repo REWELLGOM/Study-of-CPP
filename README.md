@@ -349,6 +349,8 @@ int main() {
 최초 생성된 후에 다른 주소를 가르킬수 있다(새 메모리주소, 새액터, 새컴포넌트 등등)  
 null값을 나타낼 수 있다.
 
+https://www.youtube.com/watch?v=2ybLD6_2gKM&t=78s
+
 예시  
 *AcotrPtr contents에 접근할때  
 ActorPtr address에 접근할때  
@@ -362,6 +364,7 @@ float* DamagePtr = &Damage;
 *DamagePtr = 5.5;
 UE_LOG(LogTemp, Display, TEXT("Damage: %f, DamagePtr: %f"),Damage, *DamagePtr);
  ```
+
 
 -------------------------------------------------
 
