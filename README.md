@@ -490,3 +490,11 @@ int main() {
 }
 ```
 </details>
+
+<details>
+<summary>Stack & qeue</summary>
+    
+스택은 pop을 통하여 마지막에 넣은게 나옴(카드 스택)
+큐는 먼저 드간게 먼저 나옴(당구 같은거)
+
+</details>
