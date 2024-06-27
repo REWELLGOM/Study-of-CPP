@@ -492,7 +492,7 @@ int main() {
 </details>
 
 <details>
-<summary>Stack & qeue</summary>
+<summary>Stack & queue</summary>
     
 ## 큐
 q.front()  
